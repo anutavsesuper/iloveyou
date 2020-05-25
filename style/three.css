@@ -1,0 +1,45 @@
+
+
+@import "reset.css";
+
+body {
+  background-color: #69A4FF;
+}
+
+h1 {
+  color: #69A4FF;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 20vh;
+  position: absolute;
+  bottom: 30vh;
+  text-align: center;
+  line-height: 25vh;
+}
+
+h2 {
+  color: #000;
+  font-family: "Arial Regular", Gadget, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 3vh;
+  position: absolute;
+  bottom: 10vh;
+  text-align: center;
+  line-height: 2.5vh;
+  transition: 0s 9999999s;
+}
+
+h2:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
